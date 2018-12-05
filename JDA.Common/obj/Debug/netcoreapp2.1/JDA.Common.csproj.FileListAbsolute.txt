@@ -1,0 +1,12 @@
+C:\SampleApps\HackApi\JDA.Common\bin\Debug\netcoreapp2.1\JDA.Common.deps.json
+C:\SampleApps\HackApi\JDA.Common\bin\Debug\netcoreapp2.1\JDA.Common.dll
+C:\SampleApps\HackApi\JDA.Common\bin\Debug\netcoreapp2.1\JDA.Common.pdb
+C:\SampleApps\HackApi\JDA.Common\bin\Debug\netcoreapp2.1\JDA.Entities.dll
+C:\SampleApps\HackApi\JDA.Common\bin\Debug\netcoreapp2.1\JDA.Entities.pdb
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.csprojAssemblyReference.cache
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.csproj.CoreCompileInputs.cache
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.AssemblyInfoInputs.cache
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.AssemblyInfo.cs
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.csproj.CopyComplete
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.dll
+C:\SampleApps\HackApi\JDA.Common\obj\Debug\netcoreapp2.1\JDA.Common.pdb

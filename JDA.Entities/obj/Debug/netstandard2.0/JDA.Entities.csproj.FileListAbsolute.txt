@@ -1,0 +1,9 @@
+C:\SampleApps\HackApi\JDA.Entities\bin\Debug\netstandard2.0\JDA.Entities.deps.json
+C:\SampleApps\HackApi\JDA.Entities\bin\Debug\netstandard2.0\JDA.Entities.dll
+C:\SampleApps\HackApi\JDA.Entities\bin\Debug\netstandard2.0\JDA.Entities.pdb
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.csproj.CoreCompileInputs.cache
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.AssemblyInfoInputs.cache
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.AssemblyInfo.cs
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.dll
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.pdb
+C:\SampleApps\HackApi\JDA.Entities\obj\Debug\netstandard2.0\JDA.Entities.csprojAssemblyReference.cache

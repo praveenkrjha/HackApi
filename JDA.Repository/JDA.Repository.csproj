@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+    <PackageReference Include="Serilog" Version="2.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JDA.Common\JDA.Common.csproj" />
+    <ProjectReference Include="..\JDA.Entities\JDA.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

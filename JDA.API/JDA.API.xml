@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JDA.API</name>
+    </assembly>
+    <members>
+        <member name="F:JDA.API.Controllers.RegisterUserController._appSettings">
+            <summary>
+            Initialise App Settings
+            </summary>
+        </member>
+        <member name="F:JDA.API.Controllers.RegisterUserController._logger">
+            <summary>
+            ILogger
+            </summary>
+        </member>
+        <member name="F:JDA.API.Controllers.RegisterUserController._context">
+            <summary>
+            IHttpContextAccessor
+            </summary>
+        </member>
+        <member name="M:JDA.API.Controllers.RegisterUserController.#ctor(JDA.BusinessLayer.Contracts.IRegisterUserManager,Serilog.ILogger,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{JDA.Common.AppSettings})">
+            <summary>
+            Initialise RegisterUserController Controller
+            </summary>
+            <param name="registerUserManager"></param>
+            <param name="logger"></param>
+            <param name="context"></param>
+            <param name="appSettings"></param>
+        </member>
+        <member name="M:JDA.API.Controllers.RegisterUserController.Post(JDA.Entities.Request.RegisterUserRequest)">
+            <summary>
+            Register User
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="F:JDA.API.Controllers.ValidateUserController._validateUserManager">
+            <summary>
+            Initialise Validate User Manager Interface
+            </summary>
+        </member>
+        <member name="F:JDA.API.Controllers.ValidateUserController._appSettings">
+            <summary>
+            Initialise App Settings
+            </summary>
+        </member>
+        <member name="F:JDA.API.Controllers.ValidateUserController._logger">
+            <summary>
+            ILogger
+            </summary>
+        </member>
+        <member name="F:JDA.API.Controllers.ValidateUserController._context">
+            <summary>
+            IHttpContextAccessor
+            </summary>
+        </member>
+        <member name="M:JDA.API.Controllers.ValidateUserController.#ctor(JDA.BusinessLayer.Contracts.IValidateUserManager,Serilog.ILogger,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{JDA.Common.AppSettings})">
+            <summary>
+            Initialise ValidateUserController Constructor
+            </summary>
+            <param name="validateUserManager"></param>
+            <param name="logger"></param>
+            <param name="context"></param>
+            <param name="appSettings"></param>      
+        </member>
+        <member name="M:JDA.API.Controllers.ValidateUserController.Post(JDA.Entities.Request.ValidateUserRequest)">
+            <summary>
+            Validate User
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Helpers.TokenAuthorization">
+            <summary>
+            JDA.API.Helpers.TokenAuthorization class for token authorization
+            </summary>
+            <seealso cref="!:Microsoft.AspNetCore.Authorization.AuthorizationHandler&lt;Helpers.TokenAuthorization&gt;" />
+            <seealso cref="T:Microsoft.AspNetCore.Authorization.IAuthorizationRequirement" />
+        </member>
+        <member name="M:JDA.API.Helpers.TokenAuthorization.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,JDA.API.Helpers.TokenAuthorization)">
+            <summary>
+            Makes a decision if authorization is allowed based on a specific requirement.
+            </summary>
+            <param name="context">The authorization context.</param>
+            <param name="requirement">The requirement to evaluate.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Middleware.RequestLoggingMiddleware">
+            <summary>
+            JDA.API.Middleware.RequestLoggingMiddleware class for request logging
+            </summary>
+        </member>
+        <member name="M:JDA.API.Middleware.RequestLoggingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Serilog.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:JDA.API.Middleware.RequestLoggingMiddleware"/> class.
+            </summary>
+            <param name="next">The next.</param>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:JDA.API.Middleware.RequestLoggingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invokes the specified context.
+            </summary>
+            <param name="httpContext">The httpContext.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Middleware.RequestResponseLoggingMiddlewareExtensions">
+            <summary>
+            JDA.API.Middleware.RequestResponseLoggingMiddlewareExtensions class for request response logging middleware extensions
+            </summary>
+        </member>
+        <member name="M:JDA.API.Middleware.RequestResponseLoggingMiddlewareExtensions.UseRequestResponseLogging(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Uses the request response logging.
+            </summary>
+            <param name="builder">The builder.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Middleware.ResponseLoggingMiddleware">
+            <summary>
+            JDA.API.Middleware.ResponseLoggingMiddleware class for response logging
+            </summary>
+        </member>
+        <member name="M:JDA.API.Middleware.ResponseLoggingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Serilog.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:JDA.API.Middleware.ResponseLoggingMiddleware"/> class.
+            </summary>
+            <param name="next">The next.</param>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:JDA.API.Middleware.ResponseLoggingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invokes the specified context.
+            </summary>
+            <param name="context">The context.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Middleware.SecurityMiddleware">
+            <summary>
+            JDA.API.Middleware.SecurityMiddleware class for security middleware
+            </summary>
+        </member>
+        <member name="F:JDA.API.Middleware.SecurityMiddleware.RequestToken">
+            <summary>
+            We are using a fixed Request Token that each client needs to provide for every API call.
+            This can be changed to dynamic token per client if required in future. 
+            However, we don't see a need for that as each authenticated API also requires a SecurityToken to be passed by client.
+            </summary>
+        </member>
+        <member name="M:JDA.API.Middleware.SecurityMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Initializes a new instance of the <see cref="T:JDA.API.Middleware.SecurityMiddleware"/> class.
+            </summary>
+            <param name="next">The next.</param>
+        </member>
+        <member name="M:JDA.API.Middleware.SecurityMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invokes the specified context.
+            </summary>
+            <param name="context">The context.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Middleware.SecurityMiddlewareExtensions">
+            <summary>
+            JDA.API.Middleware.SecurityMiddlewareExtensions class for security middleware extensions
+            </summary>
+        </member>
+        <member name="M:JDA.API.Middleware.SecurityMiddlewareExtensions.UseSecurityMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Uses the security middleware.
+            </summary>
+            <param name="builder">The builder.</param>
+            <returns></returns>
+        </member>
+        <member name="M:JDA.API.Program.BuildWebHost(System.String[])">
+            <summary>
+            Builds the web host.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="T:JDA.API.Startup">
+            <summary>
+            JDA.API.Startup class for startup
+            </summary>
+        </member>
+        <member name="M:JDA.API.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Initializes a new instance of the <see cref="T:JDA.API.Startup"/> class.
+            </summary>
+            <param name="env">The env.</param>
+        </member>
+        <member name="P:JDA.API.Startup.ApplicationContainer">
+            <summary>
+            Gets the application container.
+            </summary>
+            <value>
+            The application container.
+            </value>
+        </member>
+        <member name="P:JDA.API.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>
+            The configuration.
+            </value>
+        </member>
+        <member name="M:JDA.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services">The services.</param>
+            <returns></returns>
+        </member>
+        <member name="M:JDA.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+            <param name="loggerFactory">The logger factory.</param>
+            <param name="appLifetime">The application lifetime.</param>
+        </member>
+    </members>
+</doc>

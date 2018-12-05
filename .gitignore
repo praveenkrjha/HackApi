@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/JDA.Repository/bin/Debug/netcoreapp2.1
+/JDA.API/bin/Debug/netcoreapp2.1
+/JDA.BusinessLayer/bin/Debug/netcoreapp2.1
+/JDA.Common/bin/Debug/netcoreapp2.1
+/JDA.Entities/bin/Debug/netstandard2.0
