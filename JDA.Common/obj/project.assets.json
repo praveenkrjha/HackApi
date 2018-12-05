@@ -7885,11 +7885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SampleApps\\HackApi\\JDA.Common\\JDA.Common.csproj",
+      "projectUniqueName": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Common\\JDA.Common.csproj",
       "projectName": "JDA.Common",
-      "projectPath": "C:\\SampleApps\\HackApi\\JDA.Common\\JDA.Common.csproj",
+      "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Common\\JDA.Common.csproj",
       "packagesPath": "C:\\Users\\1024527\\.nuget\\packages\\",
-      "outputPath": "C:\\SampleApps\\HackApi\\JDA.Common\\obj\\",
+      "outputPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7908,8 +7908,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj": {
-              "projectPath": "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj"
+            "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj": {
+              "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj"
             }
           }
         }

@@ -18,7 +18,14 @@ namespace JDA.BusinessLayer.Concrete
         private static readonly Lazy<ConnectionMultiplexer> LazyConnection = new Lazy<ConnectionMultiplexer>(() =>
         {
             string host = AppSettings.RedisHost;
-            return ConnectionMultiplexer.Connect(host);
+            try
+            {
+                return ConnectionMultiplexer.Connect(host);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         });
 
         /// <summary>

@@ -16,41 +16,21 @@ namespace JDA.API.Controllers
     [Produces("application/json")]
     public class ValidateUserController : Controller
     {
-        /// <summary>
-        /// Initialise Validate User Manager Interface
-        /// </summary>
         private readonly IValidateUserManager _validateUserManager;
-
-        /// <summary>
-        /// Initialise App Settings
-        /// </summary>
         private readonly AppSettings _appSettings;
-
-
-        /// <summary>
-        /// ILogger
-        /// </summary>
         private readonly ILogger _logger;
-
-        /// <summary>
-        /// IHttpContextAccessor
-        /// </summary>
         private readonly IHttpContextAccessor _context;
 
-        /// <summary>
-        /// Initialise ValidateUserController Constructor
-        /// </summary>
-        /// <param name="validateUserManager"></param>
-        /// <param name="logger"></param>
-        /// <param name="context"></param>
-        /// <param name="appSettings"></param>      
+
+        private readonly IAttendanceManager _attendanceManager;
         public ValidateUserController(IValidateUserManager validateUserManager, ILogger logger,
-           IHttpContextAccessor context, IOptions<AppSettings> appSettings)
+           IHttpContextAccessor context, IOptions<AppSettings> appSettings, IAttendanceManager attendanceManager)
         {
             _validateUserManager = validateUserManager;
             _appSettings = appSettings.Value;
             _logger = logger;
             _context = context;
+            _attendanceManager = attendanceManager;
         }
 
         /// <summary>

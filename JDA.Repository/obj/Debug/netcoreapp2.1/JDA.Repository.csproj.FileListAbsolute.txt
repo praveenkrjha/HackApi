@@ -12,3 +12,17 @@ C:\SampleApps\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Entities.pdb
 C:\SampleApps\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.csproj.CopyComplete
 C:\SampleApps\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.dll
 C:\SampleApps\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.pdb
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Repository.deps.json
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Repository.dll
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Repository.pdb
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Common.dll
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Entities.dll
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Common.pdb
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\bin\Debug\netcoreapp2.1\JDA.Entities.pdb
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.csprojAssemblyReference.cache
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.csproj.CoreCompileInputs.cache
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.AssemblyInfoInputs.cache
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.AssemblyInfo.cs
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.csproj.CopyComplete
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.dll
+C:\SampleApps\JDAHackathon2018\HackApi\JDA.Repository\obj\Debug\netcoreapp2.1\JDA.Repository.pdb

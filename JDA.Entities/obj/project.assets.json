@@ -3803,11 +3803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj",
+      "projectUniqueName": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj",
       "projectName": "JDA.Entities",
-      "projectPath": "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj",
+      "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj",
       "packagesPath": "C:\\Users\\1024527\\.nuget\\packages\\",
-      "outputPath": "C:\\SampleApps\\HackApi\\JDA.Entities\\obj\\",
+      "outputPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

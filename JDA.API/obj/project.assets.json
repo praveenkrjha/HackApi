@@ -13119,11 +13119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SampleApps\\HackApi\\JDA.API\\JDA.API.csproj",
+      "projectUniqueName": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.API\\JDA.API.csproj",
       "projectName": "JDA.API",
-      "projectPath": "C:\\SampleApps\\HackApi\\JDA.API\\JDA.API.csproj",
+      "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.API\\JDA.API.csproj",
       "packagesPath": "C:\\Users\\1024527\\.nuget\\packages\\",
-      "outputPath": "C:\\SampleApps\\HackApi\\JDA.API\\obj\\",
+      "outputPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13142,14 +13142,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\SampleApps\\HackApi\\JDA.BusinessLayer\\JDA.BusinessLayer.csproj": {
-              "projectPath": "C:\\SampleApps\\HackApi\\JDA.BusinessLayer\\JDA.BusinessLayer.csproj"
+            "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.BusinessLayer\\JDA.BusinessLayer.csproj": {
+              "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.BusinessLayer\\JDA.BusinessLayer.csproj"
             },
-            "C:\\SampleApps\\HackApi\\JDA.Common\\JDA.Common.csproj": {
-              "projectPath": "C:\\SampleApps\\HackApi\\JDA.Common\\JDA.Common.csproj"
+            "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Common\\JDA.Common.csproj": {
+              "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Common\\JDA.Common.csproj"
             },
-            "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj": {
-              "projectPath": "C:\\SampleApps\\HackApi\\JDA.Entities\\JDA.Entities.csproj"
+            "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj": {
+              "projectPath": "C:\\SampleApps\\JDAHackathon2018\\HackApi\\JDA.Entities\\JDA.Entities.csproj"
             }
           }
         }
