@@ -29,7 +29,7 @@ namespace JDA.API.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(ServiceResponse<string>), (int)HttpStatusCode.OK)]
         [Route("api/Attendance")]
-        public async Task<IActionResult> Post()
+        public async Task<IActionResult> Post([FromBody] BlankRequest request)
         {
             var response = await _manager.MarkAttendance(_context);
             if (!response)

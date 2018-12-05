@@ -79,6 +79,7 @@ namespace JDA.API
             // Adds services required for using options.
             services.AddOptions();
 
+
             // Register the IConfiguration instance which MyOptions binds against.
             services.Configure<ConnectionStrings>(Configuration.GetSection("connectionStrings"));
             services.Configure<AppSettings>(Configuration.GetSection("appSettings"));
